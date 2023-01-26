@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Caveat', cursive;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#frontpage_container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    column-gap: 0;
+    justify-content: stretch;
+    align-items: flex-start;
+    height: 20vw;
+    width: 50vw;
+    box-shadow: 0rem 0rem 2rem 1rem rgba(80, 83, 83, 0.281); 
+    border-radius: 1rem;
+    background-color: wheat;
+}
+h1 {
+    font-size: 75px;
+    margin: 0;
+}
+h2 {
+    font-size: 50px;
+}
+p {
+    font-size: 20px;
+}
